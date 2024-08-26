@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --first-color: #883AE1;
+    --second-color: #E6D6FC;
+    --third-color: #E5EAF0; 
+    ---fourth-color: #FAFAF9; 
+    --fifth-color: #FFFFFF;  
+    --sixth-color: #20293A;
+    --seventh-color: #6C727F;
+    --font-family-title: 'Sora'; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(---fourth-color);
+    font-family: var(--font-family-title);
+}
+.container{
+    border-radius: 10px;
+    margin: 164px;
+    width: 368px;
+    height: 392px;
+    background-color: var(--fifth-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 15px 1px 14px 2px rgb(0 0 0 / 8%);
+}
+
+.main-img img{
+    width: 336px;
+    height: 152px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.under-text{
+    align-self: flex-start;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 15px;
+    margin: 16px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
+h4, p{
+    margin-left: 16px;
+}
+h4{
+    font-size: 1.125rem;   
+}
+
+.texto p{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+hr{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+span p {
+    margin-left: 16px;
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+}
